@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mimir-aegir"
+version = "0.1.0"
+description = "Local-first staged media-intelligence proof of concept"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy==2.2.6",
+  "opencv-python-headless==4.12.0.88",
+  "pydantic==2.11.7",
+]
+
+[project.optional-dependencies]
+azure = [
+  "azure-identity==1.25.0",
+  "openai==2.8.0",
+]
+
+[project.scripts]
+mimir-aegir = "mimir_aegir.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mimir_aegir*"]

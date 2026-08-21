@@ -1,0 +1,23 @@
+schema_version = "mimir.aegir.config.v1"
+
+[video]
+sample_interval_sec = 0.5
+analysis_width = 160
+
+[audio]
+window_sec = 0.5
+
+[candidates]
+window_sec = 2.5
+minimum_score = 0.16
+chain_gap_sec = 1.25
+maximum_candidates = 12
+
+[triage]
+keep_score = 0.55
+drop_score = 0.12
+minimum_supporting_modalities = 2
+
+[output]
+extract_evidence_frames = true
+maximum_evidence_frames_per_candidate = 3
