@@ -19,4 +19,4 @@
   cost, require privacy/compliance review for faces, biometrics, or personal
   data, and tear down PoC resources.
 - Do not add or run reviewer automation as part of the published pipeline.
-- Licensing is pending; do not add license or open-source claims.
+- The project is MIT licensed (see `LICENSE`).

@@ -11,17 +11,17 @@ network calls, needs no credentials or private media, and does not claim to
 understand an event semantically. Every retained claim is marked for human
 review.
 
-> Licensing is pending ownership and publication-authorization review. No
-> license is granted by this repository.
+> This project is licensed under the [MIT License](LICENSE).
 
 ## Background
 
-This project is an exploratory proof of concept built on the Azure AI
-platform: Azure AI Foundry is the basis for optional model access, and Azure
-Event Grid with Azure Functions is the platform basis for the optional
-event-driven ingestion path. Default execution is fully local and requires no
-cloud access, credentials, or Azure resources. Cloud integration remains an
-opt-in adapter layer, consistent with the optional Azure documentation below.
+This project was developed at Microsoft as an exploratory proof of concept
+built on the Azure AI platform: Azure AI Foundry is the basis for optional
+model access, and Azure Event Grid with Azure Functions is the platform basis
+for the optional event-driven ingestion path. Default execution is fully
+local and requires no cloud access, credentials, or Azure resources. Cloud
+integration remains an opt-in adapter layer, consistent with the optional
+Azure documentation below.
 
 ## Project at a glance
 
@@ -735,5 +735,8 @@ Extension points are the versioned artifacts between stages:
 5. Replace lexical QA retrieval behind `GroundedIndex` while preserving
    citation-or-withhold behavior.
 
-Reviewer automation remains outside the project by design. Licensing remains
-pending, so redistribution or open-source rights must not be inferred.
+Reviewer automation remains outside the project by design.
+
+## License
+
+This project is licensed under the MIT License — see [LICENSE](LICENSE).

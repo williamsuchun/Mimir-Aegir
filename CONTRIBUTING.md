@@ -3,7 +3,7 @@
 Mimir Aegir is an exploratory, local-first proof of concept. Changes should
 make its implemented behavior easier to inspect or extend without implying
 semantic accuracy, production readiness, or deployed Azure infrastructure.
-Licensing is pending; do not infer redistribution or open-source rights.
+The project is licensed under the MIT License (see `LICENSE`).
 
 ## Setup and baseline
 
