@@ -14,6 +14,15 @@ review.
 > Licensing is pending ownership and publication-authorization review. No
 > license is granted by this repository.
 
+## Background
+
+This project is an exploratory proof of concept built on the Azure AI
+platform: Azure AI Foundry is the basis for optional model access, and Azure
+Event Grid with Azure Functions is the platform basis for the optional
+event-driven ingestion path. Default execution is fully local and requires no
+cloud access, credentials, or Azure resources. Cloud integration remains an
+opt-in adapter layer, consistent with the optional Azure documentation below.
+
 ## Project at a glance
 
 | Surface | Status | Behavior |
